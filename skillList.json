@@ -1,0 +1,137 @@
+{
+    "Java": [
+        "java",
+        "spring",
+        "hibernate",
+        "maven",
+        "gradle",
+        "junit",
+        "mockito",
+        "jpa",
+        "j2ee",
+        "j2se",
+        "j2me",
+        "mongodb",
+        "postgresql",
+        "mysql",
+        "backend",
+        "backend developer"
+    ],
+
+    "Pyhton": [
+        "python",
+        "django",
+        "flask",
+        "keras",
+        "tensorflow",
+        "pytorch",
+        "mongodb",
+        "postgresql",
+        "mysql",
+        "backend",
+        "backend developer"
+    ],
+
+    "Artificial Intelligence": ["ai", "artificial intelligence"],
+
+    "Machine Learning": ["machine learning", "ml"],
+
+    "Data Engineering": [
+        "data engineering",
+        "big data",
+        "hadoop",
+        "spark",
+        "kafka",
+        "hive",
+        "hbase",
+        "cassandra",
+        "flume",
+        "sqoop",
+        "mapreduce",
+        "yarn",
+        "oozie",
+        "zookeeper",
+        "storm"
+    ],
+
+    "Web Development": [
+        "web development",
+        "html",
+        "css",
+        "javascript",
+        "react",
+        "angular",
+        "vue",
+        "node",
+        "express",
+        "bootstrap",
+        "jquery",
+        "full stack",
+        "front end",
+        "mongodb",
+        "postgresql",
+        "mysql"
+    ],
+
+    "Cloud": [
+        "cloud",
+        "aws",
+        "azure",
+        "gcp",
+        "google cloud",
+        "amazon web services"
+    ],
+    "C#": ["c#", "asp.net", "asp.net core", "dotnet", "dot net"],
+    
+    "RPA": [
+        "rpa",
+        "robotic process automation",
+        "automation anywhere",
+        "blue prism",
+        "uipath"
+    ],
+
+    "Power Apps": [
+        "power apps",
+        "power automate",
+        "power bi",
+        "powerbi",
+        "powerapps",
+        "powerautomate"
+    ],
+
+    "API Integration": [
+        "api integration",
+        "rest",
+        "soap",
+        "postman",
+        "swagger",
+        "openapi",
+        "api gateway",
+        "api management",
+        "api connect",
+        "api connect"
+    ],
+
+    "GRC": [
+        "grc",
+        "governance risk compliance",
+        "one trust",
+        "archer",
+        "metricstream",
+        "service now"
+    ],
+
+
+    "Project Risk Management": [
+        "project risk management",
+        "risk management",
+        "project management",
+        "prince2",
+        "agile",
+        "scrum",
+        "kanban",
+        "waterfall",
+        "six sigma"
+    ]    
+}
