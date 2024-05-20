@@ -12,43 +12,6 @@ import pandas as pd
 
 from Utils import getJobTitle, getJobDescription, getSkills, isJobAvailable, getCompanyName
 
-
-
-# Creating a webdriver instance
-# chrome_options = Options()
-# chrome_options.add_argument("--incognito")
-# driver = webdriver.Chrome(options=chrome_options)
-# driver.delete_all_cookies()
-# driver.maximize_window()
-
-# # Opening linkedIn's login page
-# driver.get("https://www.linkedin.com/")
-
-# time.sleep(5)
-# load_dotenv()
-# USERNAME = os.getenv("USERNAME")
-# PASSWORD = os.getenv("PASSWORD")
-
-# # entering username
-# username = driver.find_element(By.ID, "session_key")
-# driver.implicitly_wait(3)
-
-# # Enter Your Email Address
-# username.send_keys(USERNAME)
-
-# # entering password
-# pword = driver.find_element(By.ID, "session_password")
-# driver.implicitly_wait(3)
-
-# # Enter Your Password
-# pword.send_keys(PASSWORD)
-# driver.implicitly_wait(3)
-
-# driver.find_element(By.XPATH, "//button[@type='submit']").click()
-
-# time.sleep(5)
-
-
 def searchJobFromExistingClients():
 # ----------------------- Looper for each company_page ----------------------- #
     f = open('example.json')
@@ -77,8 +40,6 @@ def searchJobFromExistingClients():
             if isJobAvailable(soup) == True:
                 break
 
-
-            
             internalIdList = []
             
             jobList = soup.find('ul', attrs={'class':'scaffold-layout__list-container'})
