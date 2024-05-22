@@ -39,11 +39,11 @@ def getSkills(soup):
         return " "
 
 def isJobAvailable(soup):
-    try:
-        soup.find('div', attrs={'class': 'jobs-search-no-results-banner mb5'})
-        return False
-    except:
+    getBanner = soup.find('div', attrs={'class': 'jobs-search-no-results-banner__image'})
+    if getBanner is None:
         return True
+    else:
+        return False
 
 def getCompanyName(soup):
     try:

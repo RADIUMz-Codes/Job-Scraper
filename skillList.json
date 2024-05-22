@@ -7,34 +7,22 @@
         "gradle",
         "junit",
         "mockito",
-        "jpa",
-        "j2ee",
-        "j2se",
-        "j2me",
-        "mongodb",
-        "postgresql",
-        "mysql",
-        "backend",
-        "backend developer"
+        "jpa"
     ],
 
-    "Pyhton": [
-        "python",
-        "django",
-        "flask",
-        "keras",
-        "tensorflow",
-        "pytorch",
-        "mongodb",
-        "postgresql",
-        "mysql",
-        "backend",
-        "backend developer"
+    "Pyhton": ["python", "django", "flask"],
+
+    "AI/ML": [
+        "artificial intelligence",
+        "gen ai",
+        "generative ai",
+        "machine learning",
+        "ml",
+        "deep learning",
+        "nlp",
+        "natural language processing",
+        "computer vision"
     ],
-
-    "Artificial Intelligence": ["ai", "artificial intelligence"],
-
-    "Machine Learning": ["machine learning", "ml"],
 
     "Data Engineering": [
         "data engineering",
@@ -55,7 +43,7 @@
     ],
 
     "Web Development": [
-        "web development",
+        "web developer",
         "html",
         "css",
         "javascript",
@@ -67,10 +55,7 @@
         "bootstrap",
         "jquery",
         "full stack",
-        "front end",
-        "mongodb",
-        "postgresql",
-        "mysql"
+        "front end"
     ],
 
     "Cloud": [
@@ -79,10 +64,11 @@
         "azure",
         "gcp",
         "google cloud",
-        "amazon web services"
+        "amazon web services",
+        "devops"
     ],
     "C#": ["c#", "asp.net", "asp.net core", "dotnet", "dot net"],
-    
+
     "RPA": [
         "rpa",
         "robotic process automation",
@@ -109,19 +95,16 @@
         "openapi",
         "api gateway",
         "api management",
-        "api connect",
         "api connect"
     ],
 
     "GRC": [
-        "grc",
         "governance risk compliance",
         "one trust",
         "archer",
         "metricstream",
         "service now"
     ],
-
 
     "Project Risk Management": [
         "project risk management",
@@ -133,5 +116,5 @@
         "kanban",
         "waterfall",
         "six sigma"
-    ]    
+    ]
 }
