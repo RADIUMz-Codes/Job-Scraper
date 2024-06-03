@@ -217,7 +217,7 @@ if __name__ == "__main__":
 
     driver.find_element(By.XPATH, "//button[@type='submit']").click()
 
-    time.sleep(5)
+    time.sleep(60)
 
     # searchJobsUsingKeywords("SAP")
     searchJobFromExistingClients()
