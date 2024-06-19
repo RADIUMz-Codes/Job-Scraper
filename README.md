@@ -1,6 +1,6 @@
 # Linkedin Job Scraper
 
-###### This project helps you to scrape the job posting from a list of clients or by using keywords.
+This project helps you to scrape the job posting from a list of clients or by using keywords.
 
 ## Steps to Use this Bot
 
@@ -9,17 +9,17 @@
 
 ##### 2. Install the requirements for this project.
 &nbsp;&nbsp;&nbsp;Run this Command :
-&nbsp;&nbsp;&nbsp;`pip install -r requirements.txt`
+    `pip install -r requirements.txt`
 
-##### 3. Add Credential.
-&nbsp;&nbsp;&nbsp; Create `credentials.py` to your home directory and add your username and password.
+##### 3. Add Credentials.
+&nbsp;&nbsp;&nbsp; Create `credentials.py` in your home directory and add your Username and Password.
 
     USERNAME='example@gmail.com'
     PASSWORD='Password'
-&nbsp;&nbsp;&nbsp;`python main.py`
+
 
 ##### 4. Add Company List.
-&nbsp;&nbsp;&nbsp; Create `company_code.json` to your home directory add the data in the following format.
+&nbsp;&nbsp;&nbsp; Create `company_code.json` in your home directory add the data in the following format.
 
     {
         "HSBC" : "1241",
@@ -32,9 +32,9 @@
 
 ##### 5. Run Scraper.
 &nbsp;&nbsp;&nbsp;Run this Command :
-&nbsp;&nbsp;&nbsp;`python main.py`
+    `python main.py`
 
 
 ##### 6. Run Summary Generator.
 &nbsp;&nbsp;&nbsp;Run this Command :
-&nbsp;&nbsp;&nbsp;`python summaryGenerator.py`
+    `python summaryGenerator.py`
