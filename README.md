@@ -9,7 +9,8 @@ This project helps you to scrape the job posting from a list of clients or by us
 
 ##### 2. Install the requirements for this project.
 &nbsp;&nbsp;&nbsp;Run this Command :
-    `pip install -r requirements.txt`
+
+    pip install -r requirements.txt
 
 ##### 3. Add Credentials.
 &nbsp;&nbsp;&nbsp; Create `credentials.py` in your home directory and add your Username and Password.
@@ -32,9 +33,11 @@ This project helps you to scrape the job posting from a list of clients or by us
 
 ##### 5. Run Scraper.
 &nbsp;&nbsp;&nbsp;Run this Command :
-    `python main.py`
+
+    python main.py
 
 
 ##### 6. Run Summary Generator.
 &nbsp;&nbsp;&nbsp;Run this Command :
-    `python summaryGenerator.py`
+
+    python summaryGenerator.py
