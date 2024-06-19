@@ -3,6 +3,9 @@ credentials.py
 /results/*
 summary.csv
 test.py
-
-
+results.rar
+test
 company_code.json
+/__pycache__/*
+.venv
+Scraper Results 06-19-24.rar

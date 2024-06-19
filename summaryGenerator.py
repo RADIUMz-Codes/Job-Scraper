@@ -22,8 +22,9 @@ def generateSummary(file,data):
 
             for key in data:
                 for val in data[key]:
-                    if val in token.lower() :
+                    if val == token.lower() :
                         print(key)
+                        print(index)
                         traSkills.append(key)
                         break
 

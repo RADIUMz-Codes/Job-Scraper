@@ -34,7 +34,7 @@ def searchJobFromExistingClients():
         try:
             companyUrl = f"https://www.linkedin.com/jobs/search/?f_C={value}&&f_TPR=r604800&origin=JOB_SEARCH_PAGE_JOB_FILTER"
             driver.get(companyUrl)
-            time.sleep(5)
+            time.sleep(3)
             page = 1
             # ----------------------------- Extraction Logic ----------------------------- #
             while True:
@@ -115,7 +115,7 @@ def searchJobsUsingKeywords(keywords):
     jobsUrl = f"https://www.linkedin.com/jobs/search/?f_TPR=r86400&keywords={keywords}&location=Bengaluru%2C%20Karnataka%2C%20India&origin=JOB_SEARCH_PAGE_JOB_FILTER&refresh=true&sortBy=R"
 
     driver.get(jobsUrl)
-    time.sleep(5)
+    time.sleep(3)
     page = 1
     jdIdList = []
 

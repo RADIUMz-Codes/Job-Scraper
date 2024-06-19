@@ -2,15 +2,10 @@
     "Java": [
         "java",
         "spring",
-        "hibernate",
-        "maven",
-        "gradle",
-        "junit",
-        "mockito",
-        "jpa"
+        "hibernate"
     ],
 
-    "Pyhton": ["python", "django", "flask"],
+    "Python": ["python", "django", "flask"],
 
     "AI/ML": [
         "artificial intelligence",
@@ -22,7 +17,8 @@
     ],
 
     "Data Engineering": [
-        "data engineering"
+        "data engineering",
+        "pyspark"
     ],
 
     "Web Development": [
@@ -33,7 +29,6 @@
         "node",
         "express",
         "bootstrap",
-        "jquery",
         "full stack",
         "front end"
     ],
@@ -47,7 +42,6 @@
         "amazon web services",
         "devops"
     ],
-    "C#": ["c#", "asp.net", "asp.net core", "dotnet", "dot net"],
 
     "RPA": [
         "rpa",
@@ -70,8 +64,6 @@
         "api integration",
         "rest",
         "soap",
-        "postman",
-        "swagger",
         "openapi",
         "api gateway",
         "api management",
@@ -92,9 +84,6 @@
         "project management",
         "prince2",
         "agile",
-        "scrum",
-        "kanban",
-        "waterfall",
-        "six sigma"
+        "scrum"
     ]
 }
