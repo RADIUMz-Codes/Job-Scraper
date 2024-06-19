@@ -2,7 +2,7 @@
 
 ###### This project helps you to scrape the job posting from a list of clients or by using keywords.
 
-## Steps to Use this bot
+## Steps to Use this Bot
 
 
 ##### 1. Fork or Download this Repo.
